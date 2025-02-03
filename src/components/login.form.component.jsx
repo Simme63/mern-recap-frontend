@@ -35,7 +35,7 @@ const LoginForm = () => {
 	const handleLogin = async (values) => {
 		try {
 			const response = await axios.post(
-				"https://mern-recap-backend.vercel.app/api/auth/login",
+				"https://server-setup-express.vercel.app/api/auth/login",
 				{
 					email: values.email,
 					password: values.password,
